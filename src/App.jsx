@@ -13,7 +13,7 @@ export default function App() {
     bioLines: [
       "B.Tech in CSE from Annamacharya Institute of Technology & Sciences; aspiring AI Engineer with a Java Full Stack foundation.",
       "Skilled in Python, LangChain, Hugging Face, RAG, Generative AI, Databricks, and Azure AI Services.",
-      "Driven by curiosity about how technology transforms the world — I build projects that bridge engineering and intelligence.",
+    //  / "Driven by curiosity about how technology transforms the world — I build projects that bridge engineering and intelligence.",
       "Explore my work: github.com/sasi-kanakinti. Currently seeking full-time roles in AI/ML and Generative AI development.",
     ],
     education:
@@ -27,18 +27,21 @@ export default function App() {
       desc: "Automated file parsing system using Python and Databricks to clean, process, and extract structured data efficiently.",
       tech: ["Python", "Databricks"],
       link: "https://github.com/sasi-kanakinti/Files-Parsing.git",
+      demo: "#",
     },
     {
       title: "Chat-Bot",
       desc: "Conversational AI chatbot leveraging OpenAI models for interactive responses and intelligent communication.",
       tech: ["Python", "OpenAI"],
       link: "https://github.com/sasi-kanakinti/Chat-bot.git",
+      demo: "#",
     },
     {
       title: "Mobile Prepaid Recharge",
       desc: "Full-stack Java application enabling secure mobile prepaid recharges using Spring Boot and Spring Security.",
       tech: ["Java", "Spring Boot", "Spring Security"],
       link: "https://github.com/sasi-kanakinti/TechM_DayWise_Training/tree/main/mobileprepaid",
+      demo: "#",
     },
   ];
 
@@ -51,11 +54,9 @@ export default function App() {
     { title: "Professional", items: ["Problem Solving", "Teamwork", "Creativity"] },
   ];
 
-  // true = dark (default), false = light
   const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
-    // Set body class: "" for dark (default styles), "light" for light theme
     document.body.className = isDark ? "" : "light";
   }, [isDark]);
 
@@ -64,12 +65,12 @@ export default function App() {
       {/* HEADER */}
       <header className="header">
         <div className="header-content">
-          <div>
+          <div className="header-info">
             <h1>{user.name}</h1>
             <p>{user.title}</p>
           </div>
 
-          <nav className="nav-links" aria-label="Main navigation">
+          <nav className="nav-links">
             <a href="#home">Home</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
@@ -81,12 +82,12 @@ export default function App() {
             aria-label="Toggle theme"
             title="Toggle theme"
           >
-            {isDark ? "☀️" : "🌙"}
+            {isDark ? "🌙" : "☀️"}
           </button>
         </div>
       </header>
 
-      {/* HERO (full-width background stripe + centered content) */}
+      {/* HERO */}
       <section id="home" className="hero">
         <div className="section-content">
           <div className="hero-inner">
@@ -95,9 +96,9 @@ export default function App() {
                 Hi — I’m <span>{user.name.split(" ")[0]}</span>
               </h2>
               {user.bioLines.map((line, i) => (
+                
                 <p key={i}>{line}</p>
               ))}
-
               <div className="buttons">
                 <a href="#projects" className="primary-btn">View Projects</a>
                 <a href="#contact" className="secondary-btn">Contact</a>
@@ -125,7 +126,10 @@ export default function App() {
                 <h4>{p.title}</h4>
                 <p>{p.desc}</p>
                 <p><strong>Tech:</strong> {p.tech.join(", ")}</p>
-                <a href={p.link} target="_blank" rel="noreferrer">GitHub</a>
+                <div className="project-links">
+                  <a href={p.link} target="_blank" rel="noreferrer">GitHub</a>
+                  <a href={p.demo} target="_blank" rel="noreferrer" className="demo-link">Demo</a>
+                </div>
               </div>
             ))}
           </div>
@@ -155,8 +159,8 @@ export default function App() {
           <div className="card">
             <h3>About</h3>
             <p>{user.bioLines[1]}</p>
-            <p>{user.bioLines[2]}</p>
-            <h4>Education</h4>
+            <p>{user.bioLines[2]}</p><br />
+            <h4><b>Education</b></h4>
             <p>{user.education}</p>
           </div>
 
