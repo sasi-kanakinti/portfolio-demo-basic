@@ -99,8 +99,7 @@ You can deploy your own version easily:
 
 ## 📄 License
 
-This project is for **demo purposes only**.  
-You’re free to use the structure or UI ideas for your own personal projects.
+You’re free to use the structure or UI ideas for your personal projects - MIT.
 
 ---
 
