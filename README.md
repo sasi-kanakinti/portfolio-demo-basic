@@ -1,16 +1,112 @@
-# React + Vite
+# 🚀 Portfolio Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and minimal **personal portfolio website** built with **React + Vite** — designed to showcase projects, skills, and achievements with a clean and elegant UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Demo
 
-## React Compiler
+👉 [View Deployment](https://portfolio-demo-basic.vercel.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Previews
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Dark Mode
+| Preview | |
+|----------|--|
+| ![Dark Preview 1](public/op/b1.png) | ![Dark Preview 2](public/op/b2.png) |
+| ![Dark Preview 3](public/op/b3.png) | ![Dark Preview 4](public/op/b4.png) |
+
+### Light Mode
+| Preview | |
+|----------|--|
+| ![Light Preview 1](public/op/w1.png) | ![Light Preview 2](public/op/w2.png) |
+| ![Light Preview 3](public/op/w3.png) |  |
+
+---
+
+## 🛠️ Tech Stack
+
+- ⚡ **React + Vite** — Fast, modern frontend setup  
+- 🎨 **Tailwind CSS** — For sleek and responsive styling  
+- 💡 **Framer Motion** — For smooth animations  
+- 🌙 **Dark/Light Theme** — Switchable UI themes  
+- 📱 **Fully Responsive** — Mobile-first design  
+
+---
+
+## 📁 Folder Structure
+
+```
+portfolio-demo/
+│
+├── public/
+│   └── op/
+│       ├── b1.png
+│       ├── b2.png
+│       ├── b3.png
+│       ├── b4.png
+│       ├── w1.png
+│       ├── w2.png
+│       └── w3.png
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## ⚙️ Setup & Installation
+
+To run this project locally:
+
+```bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project directory
+cd portfolio-demo
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+Your app should now be live at `http://localhost:5173`.
+
+---
+
+## 🚀 Deployment
+
+The site is deployed using **Vercel**.  
+You can deploy your own version easily:
+
+1. Push the code to a GitHub repository.  
+2. Go to [Vercel](https://vercel.com/).  
+3. Import your repo and click **Deploy**.  
+
+---
+
+## 📄 License
+
+This project is for **demo purposes only**.  
+You’re free to use the structure or UI ideas for your own personal projects.
+
+---
+
+## 💬 Attribution
+
+© 2025 Demo Portfolio — Built with ❤️ using **React**, **Vite**, and **Tailwind CSS**.
+
+---
