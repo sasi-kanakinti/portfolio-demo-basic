@@ -29,7 +29,6 @@ A modern and minimal **personal portfolio website** built with **React + Vite** 
 ## 🛠️ Tech Stack
 
 - ⚡ **React + Vite** — Fast, modern frontend setup  
-- 🎨 **Tailwind CSS** — For sleek and responsive styling  
 - 💡 **Framer Motion** — For smooth animations  
 - 🌙 **Dark/Light Theme** — Switchable UI themes  
 - 📱 **Fully Responsive** — Mobile-first design  
@@ -107,6 +106,6 @@ You’re free to use the structure or UI ideas for your own personal projects.
 
 ## 💬 Attribution
 
-© 2025 Demo Portfolio — Built with ❤️ using **React**, **Vite**, and **Tailwind CSS**.
+© 2025 Sasi Kanakinti — Built with ❤️ using **React**, **Vite**.
 
 ---
