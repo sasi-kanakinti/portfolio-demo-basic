@@ -99,7 +99,7 @@ You can deploy your own version easily:
 
 ## 📄 License
 
-You’re free to use the structure or UI ideas for your personal projects - MIT.
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
