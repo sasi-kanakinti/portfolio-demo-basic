@@ -34,13 +34,13 @@ export default function App() {
       desc: "Conversational AI chatbot leveraging OpenAI models for interactive responses and intelligent communication.",
       tech: ["Python", "OpenAI"],
       link: "https://github.com/sasi-kanakinti/Chat-bot.git",
-      demo: "#",
+      demo: "https://chat-bot-inky-omega-98.vercel.app/",
     },
     {
       title: "Mobile Prepaid Recharge",
       desc: "Full-stack Java application enabling secure mobile prepaid recharges using Spring Boot and Spring Security.",
       tech: ["Java", "Spring Boot", "Spring Security"],
-      link: "https://github.com/sasi-kanakinti/TechM_DayWise_Training/tree/main/mobileprepaid",
+      link: "https://github.com/sasi-kanakinti/Mobile_Prepaid_Recharge.git",
       demo: "#",
     },
   ];
