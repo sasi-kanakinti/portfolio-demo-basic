@@ -27,7 +27,7 @@ export default function App() {
       desc: "Automated file parsing system using Python and Databricks to clean, process, and extract structured data efficiently.",
       tech: ["Python", "Databricks"],
       link: "https://github.com/sasi-kanakinti/Files-Parsing.git",
-      demo: "#",
+      demo: "https://portfolio-demo-basic.vercel.app",
     },
     {
       title: "Chat-Bot",
@@ -35,6 +35,13 @@ export default function App() {
       tech: ["Python", "OpenAI"],
       link: "https://github.com/sasi-kanakinti/Chat-bot.git",
       demo: "https://chat-bot-inky-omega-98.vercel.app/",
+    },
+     {
+      title: "VidSNAP-AI",
+      desc: "VidSnapAI is an automated reel generator that converts text into speech and merges it with video content using FFmpeg.",
+      tech: ["Python", "FFMPEG", "Flask"],
+      link: "https://github.com/sasi-kanakinti/VidSnapAI.git",
+      demo: "https://vidsnapai-2vcs.onrender.com",
     },
     {
       title: "Mobile Prepaid Recharge",
