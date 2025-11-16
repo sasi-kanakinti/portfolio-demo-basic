@@ -27,7 +27,14 @@ export default function App() {
       desc: "Automated file parsing system using Python and Databricks to clean, process, and extract structured data efficiently.",
       tech: ["Python", "Databricks"],
       link: "https://github.com/sasi-kanakinti/Files-Parsing.git",
-      demo: "#",
+      demo: "https://web-production-cc19c.up.railway.app/",
+    },
+    {
+      title: "VidSnapAI",
+      desc: "VidSnapAI automatically converts text into audio-backed vertical videos using FFmpeg and AI voice generation. It processes user-uploaded content and outputs ready-to-use reels in 1080×1920 format.",
+      tech: ["Python", "Flask"],
+      link: "https://github.com/sasi-kanakinti/VidSnapAI.git",
+      demo: "https://web-production-3653.up.railway.app/",
     },
     {
       title: "Chat-Bot",
