@@ -30,18 +30,18 @@ export default function App() {
       demo: "https://web-production-cc19c.up.railway.app/",
     },
     {
-      title: "VidSnapAI",
-      desc: "VidSnapAI automatically converts text into audio-backed vertical videos using FFmpeg and AI voice generation. It processes user-uploaded content and outputs ready-to-use reels in 1080×1920 format.",
-      tech: ["Python", "Flask"],
-      link: "https://github.com/sasi-kanakinti/VidSnapAI.git",
-      demo: "https://web-production-3653.up.railway.app/",
-    },
-    {
       title: "Chat-Bot",
       desc: "Conversational AI chatbot leveraging OpenAI models for interactive responses and intelligent communication.",
       tech: ["Python", "OpenAI"],
       link: "https://github.com/sasi-kanakinti/Chat-bot.git",
       demo: "https://chat-bot-inky-omega-98.vercel.app/",
+    },
+     {
+      title: "VidSNAP-AI",
+      desc: "VidSnapAI is an automated reel generator that converts text into speech and merges it with video content using FFmpeg.",
+      tech: ["Python", "FFMPEG", "Flask"],
+      link: "https://github.com/sasi-kanakinti/VidSnapAI.git",
+      demo: "https://web-production-3653.up.railway.app/",
     },
     {
       title: "Mobile Prepaid Recharge",
